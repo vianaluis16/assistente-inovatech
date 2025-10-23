@@ -1,6 +1,6 @@
 # 🤖 Assistente Virtual InovaTech (LangChain + Gemini)
 
-Este projeto implementa um **Agente de IA ReAct** (Reasoning + Acting) usando o framework **LangChain** e o modelo **Google Gemini**.  
+Este projeto implementa um **Agente de IA** usando o framework **LangChain** e o modelo **Google Gemini**.  
 O assistente é capaz de **raciocinar**, **escolher a melhor ferramenta** e **responder perguntas de forma autônoma**.
 
 ---
@@ -9,13 +9,13 @@ O assistente é capaz de **raciocinar**, **escolher a melhor ferramenta** e **re
 
 O agente possui **três ferramentas** integradas:
 
-1.  **RAG interno (Retrieval-Augmented Generation)**  
-   - Usa **FAISS** e **embeddings do Gemini (`text-embedding-004`)**  
+1.  **RAG interno**  
+   - Usa **FAISS** e **embeddings do Gemini**  
    - Responde perguntas sobre a InovaTech Ltda.  
    - Fonte: `conhecimento.txt`
 
 2.  **Busca na Web (DuckDuckGo)**  
-   - Usa o pacote `duckduckgo-search` (ou Tavily/SerpAPI opcionalmente)  
+   - Usa o pacote `duckduckgo-search` 
    - Permite consultar informações **em tempo real**, como clima, notícias e eventos atuais.
 
 3.  **Calculadora Personalizada**  
@@ -26,11 +26,11 @@ O agente possui **três ferramentas** integradas:
 
 ## Tecnologias Utilizadas
 
-- **LangChain** (`langchain`, `langchain-community`, `langchain-google-genai`)
-- **Google Gemini** (via `google-generativeai`)
-- **FAISS** para base vetorial em memória
-- **DuckDuckGo Search** (API pública)
-- **Python dotenv** para gestão de variáveis de ambiente
+- **LangChain**
+- **Google Gemini**
+- **FAISS**
+- **DuckDuckGo Search**
+- **Python dotenv**
 
 ---
 
@@ -67,7 +67,7 @@ pip install -r requirements.txt
 
 Crie um arquivo `.env` na raiz do projeto e adicione sua chave de API do Google Gemini:
 ```env
-GOOGLE_API_KEY=sua_chave_aqui
+GOOGLE_API_KEY=chave_aqui
 ```
 
 ### 5. Executar o Assistente
@@ -78,7 +78,7 @@ python assistente.py
 
 ---
 ### Observações:
-Erro na Busca Web (Rate Limit)
+**Erro na Busca Web (Rate Limit)**
 
 A ferramenta de busca_web utiliza a API pública e gratuita do DuckDuckGo. Esta API possui um limite de requisições (rate limit).
 
