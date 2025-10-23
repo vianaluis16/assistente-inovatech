@@ -1,0 +1,7 @@
+InovaTech Ltda. é uma empresa de tecnologia fundada em 2018 por Ana Silva e Carlos Souza. A nossa sede está localizada em São Paulo, e nossa missão é revolucionar o mercado de software com soluções baseadas em inteligência artificial.
+
+Nosso principal produto é o "Sistema Omega", uma plataforma de automação de processos de negócios que utiliza IA para otimizar tarefas repetitivas. O Sistema Omega já ajudou mais de 200 clientes a aumentar sua produtividade em até 40%.
+
+Além do Sistema Omega, desenvolvemos o "Data Insights", uma ferramenta de análise de dados que cria relatórios automáticos e dashboards interativos. Ele é conhecido por sua interface intuitiva e por se integrar com diversas fontes de dados, como planilhas e bancos de dados SQL.
+
+A cultura da InovaTech é baseada em colaboração, inovação e aprendizado contínuo. Acreditamos que a melhor forma de crescer é como um time, e por isso incentivamos a troca de conhecimento e a experimentação de novas tecnologias.
